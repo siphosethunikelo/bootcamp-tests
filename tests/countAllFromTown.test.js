@@ -4,7 +4,7 @@ describe('countAllFromTown ' , function(){
 
 
     }); 
-    it(' registration numbers that is from that town  CY is false ',function(){
+    it(' registration numbers that is from that town  CY is true ',function(){
         assert.equal(countAllFromTown("CL 345"),false)
 
 });
